@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-image: url("background.png");
+    background-repeat: no repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.d1 {
+    color: #5D6D7E;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 600px;
+    padding-top: 43px;
+    font-size: large;
+}
+
+.d2 {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 550px;
+    padding-top: 1px;
+    font-size: xx-large;
+
+}
+
+.d3 {
+    color: #AAB7B8;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1px;
+    font-size: ;
+    text-align: center;
+}
+
+/* Cards container */
+.cardtable {
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 5%;
+    /* background-color: blueviolet;
+    opacity: .7; */
+    width: 1090px !important;
+    height: 700px;
+    position: absolute;
+}
+
+/* The fonts for the cards */
+img {
+    width: 110px;
+    height: 110px;
+    /* position: inherit; */
+    /* margin-top: initial; */
+    float: right;
+    /* z-index: -1; */
+}
+
+.tt {
+    padding-left: 30px;
+    padding-top: 20px;
+    size: 40px;
+    font-weight: bold;
+}
+
+.txd {
+    padding-left: 30px;
+}
+
+/* The column specific */
+.col {
+    width: 350px;
+    /* background-color: coral; */
+    float: left;
+}
+
+/* THis is for the white spacing in between the cards column wise */
+.colSpacing {
+
+    background-color: white;
+    opacity: 0.1;
+    height: 100%;
+    width: 20px;
+    float: left;
+}
+
+/* This is for the first column or the card number one */
+.card1 {
+
+    margin-top: 110px;
+    background-color: white;
+    /* opacity: 0.1; */
+    height: 220px;
+    width: 350px;
+    box-shadow: 0px 5px 50px 5px whitesmoke;
+
+}
+
+.card1 .top {
+    background-color: #5DADE2;
+    height: 15px;
+
+}
+
+/* For card number 2 and 4 NOTE that card 4 is the card below card 2 */
+
+.card2 {
+
+    background-color: white;
+    /* opacity: 0.1; */
+    height: 220px;
+    width: 350px;
+    box-shadow: 0px 5px 10px 11px whitesmoke;
+
+}
+
+.card2 .top {
+    background-color: #76D7C4;
+    height: 15px;
+
+}
+
+/* This is for the space between cards 2 and 4 */
+.rowSpacing {
+    background-color: white;
+    opacity: .1;
+    width: 100%;
+    height: 18px;
+}
+
+/* Card4 */
+
+.card4 {
+    background-color: #FDFEFE;
+    /* opacity: 0.1; */
+    height: 220px;
+    width: 350px;
+    box-shadow: 0px 5px 10px 11px whitesmoke;
+
+}
+
+.card4 .top {
+    background-color: #FF66FF;
+    height: 15px;
+
+}
+
+/* For the card3 */
+.card3 {
+    margin-top: 110px;
+
+    background-color: white;
+    /* opacity: 0.1; */
+    height: 220px;
+    width: 350px;
+    box-shadow: 0px 5px 10px 11px whitesmoke;
+
+
+}
+
+.card3 .top {
+    background-color: #C39BD3;
+    height: 15px;
+
+}
+
+
+
+.card2 img,
+.card3 img,
+.card4 img {
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+
+}
